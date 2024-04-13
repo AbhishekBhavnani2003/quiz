@@ -1,0 +1,41 @@
+.mystyles:hover{
+    background-color: blue;
+    color: white ;
+    border: 2px solid white ;
+    border-radius: 10px;
+    
+    
+}
+
+.mybutton2::onclick
+{
+   background-color: red;
+}
+.mystyle 
+{
+    height: 100px;
+    padding: 10px;
+}
+
+.mybutton
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mydesc:hover
+{
+    color:white
+}
+
+@media (max-width: 768px) {
+    .mybutton {
+        position: static; /* Reset position */
+        margin-top: 10px; /* Adjust margin for spacing */
+        text-align: center; /* Center button */
+        align-items: center;
+        margin-left: 60px;
+    }
+}
