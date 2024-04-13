@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-const mongouri = "mongodb+srv://Abhishek_Bhavnani:Abhishek2003@cluster0.erwdgiz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+// make sure to add the link of mongodb atlas before starting application to prevent error . 
+const mongouri = "Add yours MOngodb atlas link here";
 
 const connecttomongo = () => {
     return mongoose.connect(mongouri)
