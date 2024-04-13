@@ -30,4 +30,6 @@ pythonQuestions = [
       "correctAnswer": "Checks if two values are equal"
     }
   ]
+
+module.exports = pythonQuestions;
   
